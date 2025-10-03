@@ -101,7 +101,7 @@ while True:
     if not ret: #se ret = false, não foi possível capturar o frame
         break
 
-    frame = imutils.resize(frame, width=800) #redimensiona o frame para uma largura de 450 pixels, mantendo a proporção.
+    frame = imutils.resize(frame, width=800) #redimensiona o frame para uma largura de 800 pixels (você pode aumentar o tamanho da tela aqui, mas isso pode ser custoso dependendo do computador), mantendo a proporção.
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) # converte o frame colorido para escala de cinza.
     rects = detector(gray, 0) #roda o detector de faces do Dlib em escala de cinza.
 
