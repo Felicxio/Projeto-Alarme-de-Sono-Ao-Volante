@@ -91,7 +91,7 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 
 6.  **Execute o script principal:**
     ```bash
-    python main.py
+    python alarme_sono_ao_volante.py
     ```
 Pressione 'q' na janela da webcam para encerrar o programa.
 
