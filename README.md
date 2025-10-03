@@ -34,7 +34,7 @@ O sistema foi construído em Python e se baseia em quatro teorias principais:
 
 -   ✅ **Monitoramento em Tempo Real:** Análise contínua do rosto do motorista através da webcam.
 -   👁️ **Detecção de Sonolência:** Dispara um alarme se os olhos permanecerem fechados por um período prolongado (baseado no EAR).
--    yawn **Detecção Robusta de Bocejo:** Dispara um alarme ao detectar a combinação de boca muito aberta (MAR) e sobrancelhas levantadas (NEP), reduzindo falsos positivos.
+-    **Detecção Robusta de Bocejo:** Dispara um alarme ao detectar a combinação de boca muito aberta (MAR) e sobrancelhas levantadas (NEP), reduzindo falsos positivos.
 -   🔊 **Alarme Sonoro:** Emite um alerta sonoro para despertar o motorista, executado em uma thread separada para não interferir na análise de vídeo.
 -   📊 **Feedback Visual:** Exibe os contornos faciais e os valores de EAR, MAR e NEP na tela para depuração e calibração.
 
