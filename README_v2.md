@@ -25,7 +25,7 @@ Projeto-Alarme-de-Sono-Ao-Volante/
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
-├── alarme_sono_ao_volante.py
+├── alarme_sono_v2.py
 ├── shape_predictor_68_face_landmarks.dat
 └── Alarme/
     └── alarme.mp3
@@ -64,7 +64,7 @@ numpy
 4. Execute:
 
 ```bash
-python alarme_sono_ao_volante.py
+python alarme_sono_v2.py
 ```
 
 ---
@@ -108,9 +108,7 @@ docker run --rm   --device=/dev/video0:/dev/video0   -e DISPLAY=$DISPLAY   -v /t
 
 ## 📦 Observações
 
-- O arquivo `shape_predictor_68_face_landmarks.dat` **não acompanha o repositório**
-- Ele pode ser obtido no site oficial do dlib
-- Necessário para o funcionamento do projeto
+- O arquivo `shape_predictor_68_face_landmarks.dat` é necessário para o funcionamento do projeto
 
 ---
 
